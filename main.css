@@ -1,0 +1,31 @@
+.hero-section{
+    background: url('/images/math-6GDW9BVdmkw-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+.hero-text{
+    position: relative;
+    top: 10rem;
+}
+
+.card{
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.card:hover{
+    transform:scale(1.1);
+    transition: 0.4s ease-out;
+}
+
+.card-title{
+    color:black;
+    font-weight: 400;
+    position: absolute;
+left: 20px;
+top: 15px;
+}
